@@ -90,6 +90,7 @@ article {
 	overflow: hidden;
 	margin-top: 35px;
 	margin-left: 120px;
+	background-color: rgb(201, 142, 171);
 }
 .c1 , .c2 {
 	display: inline-block;
