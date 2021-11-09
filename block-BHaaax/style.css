@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Content Positioning */
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+/* Header */
+
+.logo img{
+	width: 90px;
+	border-radius: 50%;
+	border: 2px solid rgb(88, 86, 86);
+}
+.logo, .menu{
+	display: inline-block;
+	vertical-align: middle;
+}
+.menu {
+	width: 90%;
+	text-align: right;
+}
+.menu a{
+	font-size: 25px;
+	font-weight: 600;
+	color: rgb(37, 16, 37);
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 0 5px grey;
+	padding: 15px;
+}
+header {
+	font-size: 0;
+	background-color: rgb(134, 64, 136);
+	padding: 15px;
+}
+
+/* Main Article */
+
+article {
+	font-size: 0;
+	overflow: hidden;
+	margin-top: 35px;
+	margin-left: 120px;
+}
+.c1 , .c2 {
+	display: inline-block;
+	width: 48%;
+	vertical-align: left;
+}
+h1 {
+	font-size: 40px;
+	color: black;
+	font-weight: 800;
+	font-style: italic;
+	font-family: cursive;
+	text-align: center;
+	text-shadow: 0 8px rgb(240, 144, 160);
+	margin-bottom: 25px;
+}
+p {
+	font-size: 18px;
+	color: rgb(80, 19, 19);
+	margin-left: 40px;
+	margin-right: 20px;
+	font-family: serif;
+	font-style: oblique;
+}
+.pic {
+	border-radius: 10px;
+	margin: -2.5px 0 18px 0;
+}
+footer {
+	background-color:rgb(212, 187, 233);
+	text-align: center;
+	margin: 40px 0;
+	padding: 20px;
+}
+footer p{
+	font-style: oblique;
+	font-weight: 600;
+	color: rgb(48, 37, 37);
+	padding: 2px;
+}
