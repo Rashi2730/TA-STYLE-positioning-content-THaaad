@@ -53,8 +53,10 @@ body {
     background-color: grey;
 }
 .container {
-    max-width: 1000px;
+    background-color: rgb(221, 227, 238);
+    max-width: 810px;
     margin: 0 auto;
+    padding: 0 32px;
 }
 
 /* Header */
@@ -63,31 +65,53 @@ h1 {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 h2 {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 700;
     margin-top: 10px;
     text-align: center;
 }
 
-/* Main Content */
+/* Float Content */
 
+.col{
+    float:left;
+    margin-top: 20px;
+}
+nav {
+    width: 25%;
+}
 article {
-    display: inline-block;
-    background-color: rgb(245, 237, 237);
+    width: 50%;
 }
-.col {
-    width: 33%;
-    float: left;
-}
+
+/* side bars */
+
 nav a{
     text-decoration: none;
+    font-size: 18px;
+    color: black;
 }
+nav p{
+    padding: 0 28px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* article */
+
 img {
-    width: 600px;
-    height: 250px;
+    width: 100%;
+    margin: 10px 0;
+}
+article p{
+    padding: 10px 0;
+    font-size: 14px;
+}
+.para {
+    padding: 0 20px;
 }
 /* clearing floats */
 
