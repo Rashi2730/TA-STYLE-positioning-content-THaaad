@@ -1,15 +1,66 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 2 Positioning Content</title>
+    <link rel="stylesheet" href="assets/media/style.css">
+</head>
+<body id="top">
+    <header>
+        <div class="container clearfix">
+            <a class="logo" href="#">FashioinIsta</a>
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">SHOP</a>
+                <a href="#">BLOG</a>
+                <a href="#">CONTACT</a>
+            </nav>
+        </div>    
+    </header>
+    <main>
+        <article>
+            <div class="container">
+                <div class="col col1">
+                    <h1>𝙁𝙖𝙨𝙝𝙞𝙤𝙣 - 𝙎𝙩𝙖𝙩𝙚 𝙤𝙛 𝙈𝙞𝙣𝙙</h1>
+                    <p>Fashion is a term which means ‘an ongoing trend'. It refers to how people dress and what kind of external getup most people think is making them look stylish, up-to-date and sophisticated. While etiquettes and manner also somehow comes into the count but it comparatively more superficial and dynamic. It changes with winds of time very fast. This can be seen from the vast difference between how people used to dress before and now.</p>
+                </div>
+                <div class="col col2">
+                    <img src="assets/media/img.png" alt="Fashion">
+                </div>
+            </div>
+        </article>
+        <section>
+            <div class="container clearfix">
+                <div>
+                    <img src="assets/media/dom-hill-nimElTcTNyY-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img src="assets/media/rayul-_M6gy9oHgII-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img src="assets/media/roman-shilin-IDmp9MxIou4-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img src="assets/media/skg-photography-YKcKLhuhUVk-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img src="assets/media/taylor-Xqb7GmV_VoQ-unsplash.jpg" alt="">
+                </div>
+                <div>
+                    <img src="assets/media/todd-kent-QG756pvuQZ0-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Do you want to know more?</p>
+            <p>Contact us at</p>
+            <address>fashionista@contact.com</address>
+        </div>
+    </footer>
+    <span id="#top"><a class="button" href="#"></a></span>
+</body>
+</html>
